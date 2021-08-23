@@ -1,0 +1,91 @@
+[main] 2021-08-05 22:01:01 INFO  com.bank.main.Salvatore_Bank  - ========Welcome to Salvatore Bank========
+[main] 2021-08-05 22:01:01 INFO  com.bank.main.Salvatore_Bank  - ====Main Menu====
+[main] 2021-08-05 22:01:01 INFO  com.bank.main.Salvatore_Bank  - 1)Register
+[main] 2021-08-05 22:01:01 INFO  com.bank.main.Salvatore_Bank  - 2)Login
+[main] 2021-08-05 22:01:01 INFO  com.bank.main.Salvatore_Bank  - 3)EXIT
+[main] 2021-08-05 22:01:05 INFO  com.bank.main.Salvatore_Bank  - ======Login Portal======
+[main] 2021-08-05 22:01:05 INFO  com.bank.main.Salvatore_Bank  - 1)Login as Customer
+[main] 2021-08-05 22:01:05 INFO  com.bank.main.Salvatore_Bank  - 2)Login as Employee
+[main] 2021-08-05 22:01:05 INFO  com.bank.main.Salvatore_Bank  - 3)Main Menu
+[main] 2021-08-05 22:01:05 INFO  com.bank.main.Salvatore_Bank  - 4)Exit
+[main] 2021-08-05 22:01:07 INFO  com.bank.main.Salvatore_Bank  - Enter EmployeeId
+[main] 2021-08-05 22:01:12 INFO  com.bank.main.Salvatore_Bank  - Enter Password
+[main] 2021-08-05 22:01:17 INFO  com.bank.main.Salvatore_Bank  - 
+
+[main] 2021-08-05 22:01:17 INFO  com.bank.main.Salvatore_Bank  - ======Welcome to Salvatore Bank======
+[main] 2021-08-05 22:01:17 INFO  com.bank.main.Salvatore_Bank  - ====Employee Menu====
+[main] 2021-08-05 22:01:17 INFO  com.bank.main.Salvatore_Bank  - 1)View All the Accounts
+[main] 2021-08-05 22:01:17 INFO  com.bank.main.Salvatore_Bank  - 2)View All Customers
+[main] 2021-08-05 22:01:17 INFO  com.bank.main.Salvatore_Bank  - 3)View Customer Transactions
+[main] 2021-08-05 22:01:17 INFO  com.bank.main.Salvatore_Bank  - 4)LogOut
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Account [cust_name=susmithaaa, cust_accno=1, aadhar=233445566778, open_bal=5000.0, userId1=1011]
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Account [cust_name=keerthana, cust_accno=10001, aadhar=988776655444, open_bal=10000.0, userId1=1013]
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Account [cust_name=rishi, cust_accno=10010, aadhar=122345567889, open_bal=19000.0, userId1=1014]
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Account [cust_name=tanmai, cust_accno=10018, aadhar=988712236554, open_bal=31349.0, userId1=1016]
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Account [cust_name=susmitha, cust_accno=10012, aadhar=112323349887, open_bal=12700.0, userId1=1011]
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Account [cust_name=teja, cust_accno=10011, aadhar=900978876776, open_bal=33700.0, userId1=1015]
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Account [cust_name=hash, cust_accno=2, aadhar=122334455667, open_bal=95000.0, userId1=1012]
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - 
+
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - Thankyou
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - 
+
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - 1)View All the Accounts
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - 2)View All Customers
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - 3)View Customer Transactions
+[main] 2021-08-05 22:01:21 INFO  com.bank.main.Salvatore_Bank  - 4)LogOut
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=susmithaaa, cust_name=susmi@mail.com, cust_emailid=9441477537, cust_phno=1011, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=hash, cust_name=hash@gmail.com, cust_emailid=7337067032, cust_phno=1012, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=keerthana, cust_name=keerthana@gmail.com, cust_emailid=9866750483, cust_phno=1013, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=rishi, cust_name=rishi@mail.com, cust_emailid=9390022669, cust_phno=1014, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=teja, cust_name=teja@gmail.com, cust_emailid=9440449044, cust_phno=1015, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=tanmai, cust_name=tanmai@gmail.com, cust_emailid=7674848405, cust_phno=1016, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=vijaya, cust_name=vijaya@gmail.com, cust_emailid=9700043257, cust_phno=1056, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=vivek, cust_name=vivek@mail.com, cust_emailid=9898000000, cust_phno=1098, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Customer [cust_id=vinay, cust_name=vinay@gmail.com, cust_emailid=9999999999, cust_phno=10976, cust_pwd=null]
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - 
+
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - Thankyou
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - 
+
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - 1)View All the Accounts
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - 2)View All Customers
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - 3)View Customer Transactions
+[main] 2021-08-05 22:01:34 INFO  com.bank.main.Salvatore_Bank  - 4)LogOut
+[main] 2021-08-05 22:01:44 INFO  com.bank.main.Salvatore_Bank  - Enter AccountNumber to get the Statement 
+[main] 2021-08-05 22:01:47 ERROR com.bank.main.Salvatore_Bank  - No records exists for AccountNumber  : 1011
+[main] 2021-08-05 22:01:47 INFO  com.bank.main.Salvatore_Bank  - Thankyou
+[main] 2021-08-05 22:01:47 INFO  com.bank.main.Salvatore_Bank  - 1)View All the Accounts
+[main] 2021-08-05 22:01:47 INFO  com.bank.main.Salvatore_Bank  - 2)View All Customers
+[main] 2021-08-05 22:01:47 INFO  com.bank.main.Salvatore_Bank  - 3)View Customer Transactions
+[main] 2021-08-05 22:01:47 INFO  com.bank.main.Salvatore_Bank  - 4)LogOut
+[main] 2021-08-05 22:01:52 INFO  com.bank.main.Salvatore_Bank  - Enter AccountNumber to get the Statement 
+[main] 2021-08-05 22:01:55 ERROR com.bank.main.Salvatore_Bank  - No records exists for AccountNumber  : 1012
+[main] 2021-08-05 22:01:55 INFO  com.bank.main.Salvatore_Bank  - Thankyou
+[main] 2021-08-05 22:01:55 INFO  com.bank.main.Salvatore_Bank  - 1)View All the Accounts
+[main] 2021-08-05 22:01:55 INFO  com.bank.main.Salvatore_Bank  - 2)View All Customers
+[main] 2021-08-05 22:01:55 INFO  com.bank.main.Salvatore_Bank  - 3)View Customer Transactions
+[main] 2021-08-05 22:01:55 INFO  com.bank.main.Salvatore_Bank  - 4)LogOut
+[main] 2021-08-05 22:01:59 INFO  com.bank.main.Salvatore_Bank  - Enter AccountNumber to get the Statement 
+[main] 2021-08-05 22:02:02 ERROR com.bank.main.Salvatore_Bank  - No records exists for AccountNumber  : 1013
+[main] 2021-08-05 22:02:02 INFO  com.bank.main.Salvatore_Bank  - Thankyou
+[main] 2021-08-05 22:02:02 INFO  com.bank.main.Salvatore_Bank  - 1)View All the Accounts
+[main] 2021-08-05 22:02:02 INFO  com.bank.main.Salvatore_Bank  - 2)View All Customers
+[main] 2021-08-05 22:02:02 INFO  com.bank.main.Salvatore_Bank  - 3)View Customer Transactions
+[main] 2021-08-05 22:02:02 INFO  com.bank.main.Salvatore_Bank  - 4)LogOut
+[main] 2021-08-05 22:02:54 INFO  com.bank.main.Salvatore_Bank  - Enter AccountNumber to get the Statement 
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - Statement for the Account Number  2
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - Transaction [cust_accno=2, amount=2500.0, open_bal=5000.0, close_bal=7500.0, trans_id=11, trans_type=Deposit, date=2021-07-18]
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - Transaction [cust_accno=2, amount=2000.0, open_bal=5000.0, close_bal=3000.0, trans_id=12, trans_type=Withdraw, date=2021-07-18]
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - Transaction [cust_accno=2, amount=-90000.0, open_bal=5000.0, close_bal=95000.0, trans_id=27, trans_type=Withdraw, date=2021-07-19]
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - Thankyou
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - 1)View All the Accounts
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - 2)View All Customers
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - 3)View Customer Transactions
+[main] 2021-08-05 22:02:57 INFO  com.bank.main.Salvatore_Bank  - 4)LogOut
+[main] 2021-08-05 22:03:15 INFO  com.bank.main.Salvatore_Bank  - Logged out
+[main] 2021-08-05 22:03:33 INFO  com.bank.main.Salvatore_Bank  - ========Welcome to Salvatore Bank========
+[main] 2021-08-05 22:03:33 INFO  com.bank.main.Salvatore_Bank  - ====Main Menu====
+[main] 2021-08-05 22:03:33 INFO  com.bank.main.Salvatore_Bank  - 1)Register
+[main] 2021-08-05 22:03:33 INFO  com.bank.main.Salvatore_Bank  - 2)Login
+[main] 2021-08-05 22:03:33 INFO  com.bank.main.Salvatore_Bank  - 3)EXIT

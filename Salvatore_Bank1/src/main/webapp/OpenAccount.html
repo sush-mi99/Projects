@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Open</title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="border p-4">
+            <h4>Open Account</h4>
+             <div id="results"></div>
+            <form method="post" action="openacc" id="form2">
+                <div class="form-group w-25">
+                	<label>Enter CustId</label> 
+                	<input class="form-control " type="text" id="userId1" placeholder="custid">
+                	<p style="color: red;" id="errorUserId"></p>
+                    <label>Enter Your Name</label>
+                    <input class="form-control " type="text" id="cust_name" placeholder="Enter Name ">
+                    <p style="color: red;" id="errorName"></p>
+                    <label>Enter Your AadharNumber</label>
+                    <input class="form-control" type="number" id="aadhar" placeholder="Enter AadharNumber ">
+                    <p style="color: red;" id="errorAadharCard"></p>
+                    <label>Enter amount to open account </label>
+                    <input class="form-control" type="number" id="open_bal" placeholder="Enter Amount "><br><br>
+                     <p style="color: red;" id="errorOpeningBalance"></p>
+                    <button id="open" class="btn btn-primary" type="submit" id="openacc"
+                        value="open">Open</button><br>
+                </div>
+            </form>
+        
+    
+        </div>
+    </div>
+</body>
+
+<script src="valida.js">
+</script>
+</html>

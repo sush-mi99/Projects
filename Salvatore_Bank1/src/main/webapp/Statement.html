@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Statements</title>
+</head>
+<body>
+<div class="container">
+        <br>
+ 		<div class="border p-4">
+    <h3 class="display-8">Statements</h3>
+    <p class="lead">Please enter your Account Number to get the Statement</p>
+    <hr class="my-4">
+
+<div class="container">
+    <label>Enter your AccountNumber</label>
+    <input class="form-control " type="text" id="cust_accno" placeholder="Account Number"><br>
+    <input class="btn btn-primary" type="submit" value="View" id="b1">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="btn btn-primary" type="button" value="Back" id="b2"><br>
+    <br><br>
+    <div id="results">
+
+    </div>
+</div>
+</div>
+ </div>
+</body>
+<script>
+    b1.onclick = () => {
+        let value = document.getElementById("cust_accno").value;
+        if (value === '' || value.length == 0) {
+            alert("value is empty cannot continue the search");
+            return;
+        }//http://localhost:8080/bank_thor_v2/userid?userid=8977
+        let url = "/Salvatore_Bank1/statement?cust_accno=" + value;
+        fetch(url)
+            .then(response => response.json())
+            .then(res => {
+               let data = "<table class = 'table table-striped table-bordered'> <thead class='thead-dark'> <tr><th>Transaction Id</th><th>TransactionType</th><th>Transaction Amount</th><th>Closing Balance</th><th>Account Number</th><th>Date</th></thead><tbody> "
+                res.forEach(e => {
+                    data = data + "<tr><td>" + e.trans_id + "</td>";
+                    data = data + "<td>" + e.trans_type + "</td>";
+                    data = data + "<td>" + e.open_bal1 + "</td>";
+                    data = data + "<td>" + e.close_bal + "</td>";
+                    data = data + "<td>" + e.cust_accno + "</td>";
+                    data = data + "<td>" + e.date + "</td></tr>";
+                });
+                data = data + "</tbody></table>"
+                document.getElementById("results").innerHTML = data;
+            })
+    }
+    document.getElementById("b2").onclick = function () {
+        location.href = "http://localhost:8080/Salvatore_Bank1/CustomerMenu.html";
+    };
+
+</script>
+
+</body>
+</html>

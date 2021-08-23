@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="border p-4">
+            <h4>Welcome To SignUp Page</h4>
+             <div id="results">
+
+            </div>
+            <form method="post" action="bank" id="form">
+                <div class="form-group w-25">
+                    <label>Enter Your Name</label>
+                    <input class="form-control " type="text" id="cust_name" placeholder="Enter Name ">
+                    <p style="color: red;" id="errorName"></p>
+                    <label>Enter Your EmailId</label>
+                    <input class="form-control" type="email" id="cust_emailid" placeholder="Enter EmailId ">
+                    <p style="color: red;" id="errorEmailId"></p>
+                    <label>Enter Your Mobile Number </label>
+                    <input class="form-control" type="number" id="cust_phno" placeholder="Enter MobileNumber ">
+                    <p style="color: red;" id="errorMobileNumber"></p>
+                    <label>Create CustId</label>
+                    <input class="form-control" type="text" id="cust_id" placeholder="Enter CustId">
+                     <p style="color: red;" id="errorCustId"></p>
+                    <label>Create Password</label>
+                    <input class="form-control" type="password" id="cust_pwd" placeholder="Enter Password">
+                    <p style="color: red;" id="errorPassword"></p> <br>
+                    <input class="btn btn-primary" type="submit" value="Signup">
+                </div>
+            </form>
+        
+    
+        </div>
+
+    </div>
+    <div class="container">
+        <div id="results">
+
+        </div>
+    </div>
+</body>
+
+<script src="valid.js">
+    
+</script>
+</html>

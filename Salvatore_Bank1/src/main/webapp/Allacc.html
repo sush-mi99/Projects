@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<title>Accounts</title>
+</head>
+<body><div class="container"><br><br>
+<div class="border p-4">
+  <div id="results"></div>
+  <button id="b1" class="btn btn-primary" type="button">
+            <h4>Back</h4>
+        </button>
+  </div>
+  </div><br><br>
+  </body>
+<script>
+let url = "/Salvatore_Bank1/account";
+fetch(url)
+    .then(response => response.json())
+    .then(res => {
+        let data = "<table class = 'table table-striped table-bordered'> <thead class='thead-dark'> " +
+        		"<tr><th>CustId</th><th>Name</th><th>Aadhar Number</th><th>Amount</th><th>Acccount Number</th></thead></tr><tbody> "
+        res.forEach(e => {
+            data = data + "<tr><th>" + e.userId1 + "</th>";
+            data = data + "<td>" + e.cust_name+ "</td>";
+            data = data + "<td>" + e.aadhar + "</td>";
+            data = data + "<td>" + e.open_bal + "</td>";
+            data = data + "<td>" + e.cust_accno + "</td></tr>";
+        });
+        data = data + "</tbody></table>"
+        document.getElementById("results").innerHTML = data;
+    })
+    document.getElementById("b1").onclick = function () {
+location.href = "http://localhost:8080/Salvatore_Bank1/EmployeeMenu.html";
+};
+</script>
+</html>
